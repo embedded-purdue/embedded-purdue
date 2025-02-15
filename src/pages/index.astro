@@ -1,11 +1,42 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Header2 from "../components/Header2.astro";
+import Statement from "../components/Statement.astro";
+import Footer from "../components/Footer.astro";
+import '../styles/global.css'
+const pageTitle = "Home Page";
 ---
+<meta charset="UTF-8">
+<head>
+	<title>ES@P</title>
+</head>
+<body>
+	<Header2 />
+	<br />
+	<br />
+	<br />
+	<br />
+	
+	<Statement
+	size="3"
+    text="From classroom to career–we've got you covered."
+	/>
+	<Statement
+		text="We bridge the gap between academic instruction and industry demands. Through hands-on projects, workshops, and professional development, we equip our members with the skills to thrive in embedded systems."
+	/>
+	<Statement
+		text="Build. Learn. Lead. Your future starts here. 🚀"
+	/>
 
-<Layout>
-	<Welcome />
-</Layout>
+
+
+	<Statement
+		text="Join our Discord to learn more."
+	/>
+
+	<br />
+	<br />
+	<br />
+	<br />
+
+	<Footer />
+</body>

@@ -1,0 +1,30 @@
+---
+// TextBanner.astro
+const { text, size } = Astro.props;
+---
+
+<div class="banner">
+  <p class="text">{text}</p>
+</div>
+
+<style>
+  .banner {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 8px;
+    margin: 0rem auto; /* Center the banner horizontally */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    max-width: 46rem; /* Optional: Set a max-width for the banner */
+  }
+  .text {
+    font-size: 2rem;
+    color: white;
+    line-height: 1.5;
+  }
+  .text .emoji {
+    /* font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif; */
+  }
+</style>

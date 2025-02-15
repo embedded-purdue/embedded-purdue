@@ -1,0 +1,55 @@
+---
+// import "@fontsource/garamond"; // Optional: Use a Garamond-like font from npm
+---
+
+<style>
+  header {
+    background-color: #0a000a; /* Dark background */
+    color: white;
+    padding: .5rem;
+    text-align: center;
+    /* font-family: "Apple Garamond", "Garamond", serif; */
+    font-family: 'AppleGaramond';
+    src: url(../../public/fonts/AppleGaramond.ttf) format('tff');
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white !important;  /* Force white color */
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none; /* Remove underline for all links */
+  }
+
+  
+  nav {
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  
+  nav a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-size: 2rem;
+    color: white !important;  /* Force white color */
+  }
+
+  nav a:hover {
+    opacity: 0.8;
+  }
+</style>
+
+<header>
+  <a href="/"><h1>Embedded Systems @ Purdue.</h1></a>
+  <nav>
+    <a href="/about">about</a>
+    <a href="https://embedded-purdue.notion.site/project">projects</a>
+    <a href="/workshops">workshops</a>
+    <a href="/contact">contact/sponsor</a>
+  </nav>
+</header>
