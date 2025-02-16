@@ -2,12 +2,19 @@
 import Header2 from "../components/Header2.astro";
 import Statement from "../components/Statement.astro";
 import Footer from "../components/Footer.astro";
+import ImageAndText from "../layouts/ImageAndText.astro";
 import '../styles/global.css'
+import exec2025Pic from "../media/exec2025.jpeg";
 const pageTitle = "Home Page";
 ---
 <meta charset="UTF-8">
 <head>
 	<title>ES@P</title>
+	<style>
+		p {
+			font-size: 2rem;
+		}
+	</style>
 </head>
 <body>
 	<Header2 />
@@ -15,9 +22,11 @@ const pageTitle = "Home Page";
 	<br />
 	<br />
 	<br />
+	<br />
+	<br />
+
 	
 	<Statement
-	size="3"
     text="From classroom to career–we've got you covered."
 	/>
 	<Statement
@@ -27,13 +36,44 @@ const pageTitle = "Home Page";
 		text="Build. Learn. Lead. Your future starts here. 🚀"
 	/>
 
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
 
-
-	<Statement
-		text="Join our Discord to learn more."
+	<ImageAndText
+		text="Our projects are sure to wow! Work on technical projects as as an Active Member or Project Manager of your own team."
+		linkText="See available positions."
+		link="/workshops"
+		imageSrc={exec2025Pic}
+		align="left"
 	/>
 
+	<ImageAndText
+		text="Workshops and courses give you the edge you need. Bridge the gaps in your knowledge with the industry's most sought-after skills"
+		linkText="See upcoming workshops."
+		link="/workshops"
+		imageSrc={exec2025Pic}
+		align="right"
+	/>
+
+	<ImageAndText
+		text= "Boost your career with professional development sessions designed to sharpen your résumé, refine your interview skills, and expand your network."
+		imageSrc={exec2025Pic}
+		align="left"
+	/>
+
+	
 	<br />
+	<br />
+	<br />
+
+	<p> Join our <a href="">Discord</a> to learn more.</p>
+
 	<br />
 	<br />
 	<br />
