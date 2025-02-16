@@ -2,7 +2,9 @@
 import Header2 from "../components/Header2.astro";
 import Statement from "../components/Statement.astro";
 import Footer from "../components/Footer.astro";
-import '../styles/global.css'
+import '../styles/global.css';
+import { Image } from 'astro:assets';
+import exec2025Pic from "../media/exec2025.jpeg";
 const pageTitle = "About";
 ---
 <meta charset="UTF-8">
@@ -13,14 +15,15 @@ const pageTitle = "About";
 	<Header2 />
 	<br />
 	<br />
-	<br />
-	<br />
 	
 	<Statement
     text="Founded in 2025 at Purdue University, the purpose of ES@P is to provide a collaborative platform for students to explore, develop, and excel in the field of embedded systems. ES@P aims to bridge the gap between academic learning and industry expectations, equipping members with the technical knowledge and hands-on skills necessary to succeed in their careers."
 	/>
 
 	<br />
+
+	<Image src={exec2025Pic} alt="2025 Exec team" width="840" height="600" />
+
 	<br />
 	<br />
 	<br />
