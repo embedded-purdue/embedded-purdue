@@ -3,7 +3,7 @@
     "Name": "Alice Johnson",
     "Role": "Exec",
     "DisplayCategory": "President",
-    "Image": "alice.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "CS Senior",
     "LinkedIn": "https://linkedin.com/in/alicejohnson"
   },
@@ -11,37 +11,37 @@
     "Name": "Bob Smith",
     "Role": "Exec",
     "DisplayCategory": "Vice President",
-    "Image": "bob.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "EE Junior",
     "LinkedIn": "https://linkedin.com/in/bobsmith"
   },
   {
     "Name": "Carol White",
-    "Role": "PM",
+    "Role": "Exec",
     "DisplayCategory": "MAP",
-    "Image": "carol.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "ME Sophomore",
     "LinkedIn": "https://linkedin.com/in/carolwhite"
   },
   {
     "Name": "Dave Brown",
-    "Role": "PM",
+    "Role": "Exec",
     "DisplayCategory": "GestARM",
-    "Image": "dave.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "CE Freshman",
     "LinkedIn": "https://linkedin.com/in/davebrown"
   },
   {
     "Name": "Eve Black",
-    "Role": "Active Member",
+    "Role": "Exec",
     "DisplayCategory": "GestARM",
-    "Image": "eve.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "CS Senior",
     "LinkedIn": "https://linkedin.com/in/eveblack"
   },
   {
     "Name": "Frank Green",
-    "Role": "Active Member",
+    "Role": "Exec",
     "DisplayCategory": "PurduDraw",
     "Image": "frank.jpg",
     "MajorYear": "EE Junior",

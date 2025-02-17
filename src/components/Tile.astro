@@ -14,16 +14,15 @@ console.log(imagePath);
 <div class="tile">
   <img src={imagePath} alt={name} class="profile-image" />
   <p class="name">{name}</p>
-  <p class="role">{role}</p>
+  <a href={linkedin} target="_blank" class="linkedin-link">{role}</a>
   <p class="major-year">{majorYear}</p>
-  <a href={linkedin} target="_blank" class="linkedin-link">LinkedIn</a>
 </div>
 
 <style>
 .tile {
   padding: 15px;
   text-align: center;
-  max-width: 200px;
+  /* max-width: 80%; */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -31,8 +30,8 @@ console.log(imagePath);
 }
 
 .profile-image {
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: 15vw;
   object-fit: cover;
   margin-bottom: 10px;
 }
@@ -40,24 +39,18 @@ console.log(imagePath);
 .name {
   font-size: 2rem;
   /* font-weight: ; */
-  margin: 8px 0;
+  margin: 0 0;
 text-align: center;
 }
 
 .role, .major-year {
   font-size: 1rem;
-  margin: 4px 0;
+  margin: 0.5rem;
 }
 
 .linkedin-link {
-  display: inline-block;
-  margin-top: 16px;
-  padding: 8px 16px;
-  background-color: #0077b5;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 0.875rem;
+
+  font-size: 1.5rem;
 }
 
 .linkedin-link:hover {
