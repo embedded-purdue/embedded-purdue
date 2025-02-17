@@ -45,7 +45,7 @@ const pageTitle = "About";
         <Tile
           image={exec.Image}
           name={exec.Name}
-          role={exec.Role}
+          role={exec.DisplayCategory}
           majorYear={exec.MajorYear}
           linkedin={exec.LinkedIn}
         />
@@ -58,7 +58,7 @@ const pageTitle = "About";
         <Tile
           image={pm.Image}
           name={pm.Name}
-          role={pm.Role}
+          role={pm.DisplayCategory}
           majorYear={pm.MajorYear}
           linkedin={pm.LinkedIn}
         />
@@ -71,7 +71,7 @@ const pageTitle = "About";
         <Tile
           image={member.Image}
           name={member.Name}
-          role={member.Role}
+          role={member.DisplayCategory}
           majorYear={member.MajorYear}
           linkedin={member.LinkedIn}
         />
@@ -120,6 +120,4 @@ const pageTitle = "About";
     max-width: 100%;
   }
 }
-
-
 </style>
