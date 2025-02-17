@@ -1,0 +1,32 @@
+---
+export interface Props {
+  image: string;
+  name: string;
+  role: string;
+  majorYear: string;
+  linkedin: string;
+}
+
+const { image, name, role, majorYear, linkedin } = Astro.props;
+const imagePath = `../../public/media/${image}`;
+console.log(imagePath);
+---
+<div class="tile">
+  <img src={imagePath} alt={name} />
+  <h2>{name}</h2>
+  <p>{role}</p>
+  <p>{majorYear}</p>
+  <a href={linkedin} target="_blank">LinkedIn</a>
+</div>
+
+<style>
+.tile {
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+}
+.tile img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+</style>

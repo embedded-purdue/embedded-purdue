@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "Alice Johnson",
+    "Role": "Exec",
+    "Image": "alice.jpg",
+    "MajorYear": "CS Senior",
+    "LinkedIn": "https://linkedin.com/in/alicejohnson"
+  },
+  {
+    "Name": "Bob Smith",
+    "Role": "Exec",
+    "Image": "bob.jpg",
+    "MajorYear": "EE Junior",
+    "LinkedIn": "https://linkedin.com/in/bobsmith"
+  },
+  {
+    "Name": "Carol White",
+    "Role": "PM",
+    "Image": "carol.jpg",
+    "MajorYear": "ME Sophomore",
+    "LinkedIn": "https://linkedin.com/in/carolwhite"
+  },
+  {
+    "Name": "Dave Brown",
+    "Role": "PM",
+    "Image": "dave.jpg",
+    "MajorYear": "CE Freshman",
+    "LinkedIn": "https://linkedin.com/in/davebrown"
+  },
+  {
+    "Name": "Eve Black",
+    "Role": "Active Member",
+    "Image": "eve.jpg",
+    "MajorYear": "CS Senior",
+    "LinkedIn": "https://linkedin.com/in/eveblack"
+  },
+  {
+    "Name": "Frank Green",
+    "Role": "Active Member",
+    "Image": "frank.jpg",
+    "MajorYear": "EE Junior",
+    "LinkedIn": "https://linkedin.com/in/frankgreen"
+  }
+]
