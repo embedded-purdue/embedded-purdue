@@ -4,6 +4,21 @@ This repository contains the code for the Embedded Purdue website, custom built 
 
 ## Maintenance
 This webiste reflects the current state of ES@P, so should reflect all recent work. Update with new photos, projects, and members regularly. Maintenance is assigned to the president, although any member may contribute. Basic knowledge of HTML/CSS/JS and Astro recommended.
+# Data Management Instructions
+
+## Steps
+1. Update Data in Excel File
+   - Open the `data.xlsx` file located in the `data` folder.
+   - Update the following fields manually: Name, Role, Image, MajorYear, LinkedIn
+
+2. Upload Images
+   - Upload the updated images to the `public/media` folder.
+
+3. Generate JSON Data
+   - Run the following command to load the data into JSON format:
+     npm run generate-data
+
+This will unpack the data and make it ready for use.
 
 ## Contributions
 
