@@ -74,7 +74,7 @@ a {
 
 @font-face {
   font-family: 'AppleGaramond';
-  src: url('../../public/fonts/AppleGaramond-Light.ttf') format('woff');
+  src: url('../fonts/AppleGaramond-Light.ttf') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -82,7 +82,7 @@ a {
 
 @font-face {
   font-family: 'AppleGaramond';
-  src: url('../../public/fonts/AppleGaramond.ttf') format('woff');
+  src: url('../fonts/AppleGaramond.ttf') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
