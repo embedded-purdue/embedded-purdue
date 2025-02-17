@@ -2,35 +2,49 @@
   {
     "Name": "Alice Johnson",
     "Role": "Exec",
-    "Image": "alice.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "CS Senior",
     "LinkedIn": "https://linkedin.com/in/alicejohnson"
   },
   {
+    "Name": "John Doe",
+    "Role": "Exec",
+    "Image": "frank.jpg",
+    "MajorYear": "ME Junior",
+    "LinkedIn": "https://linkedin.com/in/johndoe"
+  },
+  {
+    "Name": "Jane Smith",
+    "Role": "President",
+    "Image": "frank.jpg",
+    "MajorYear": "EE Senior",
+    "LinkedIn": "https://linkedin.com/in/janesmith"
+  },
+  {
     "Name": "Bob Smith",
     "Role": "Exec",
-    "Image": "bob.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "EE Junior",
     "LinkedIn": "https://linkedin.com/in/bobsmith"
   },
   {
     "Name": "Carol White",
     "Role": "PM",
-    "Image": "carol.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "ME Sophomore",
     "LinkedIn": "https://linkedin.com/in/carolwhite"
   },
   {
     "Name": "Dave Brown",
     "Role": "PM",
-    "Image": "dave.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "CE Freshman",
     "LinkedIn": "https://linkedin.com/in/davebrown"
   },
   {
     "Name": "Eve Black",
     "Role": "Active Member",
-    "Image": "eve.jpg",
+    "Image": "frank.jpg",
     "MajorYear": "CS Senior",
     "LinkedIn": "https://linkedin.com/in/eveblack"
   },
