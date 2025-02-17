@@ -31,11 +31,16 @@ Contributions are welcome! Check the Issues tab for pending tasks. Follow these 
 5. Submit a pull request to the main repository.
 
 ## Installation
-
+Host site locally:
 1. Clone the repository
 2. Install dependencies using npm: `npm install`
 3. Start the development server: `npm run dev`
 4. Open the local development environment: The website should be available at http://localhost:4321/ (or as indicated in the terminal output).
+
+Run scripts:
+1. Create virtual environment `python3 -m venv venv`
+2. Activate `source venv/bin/activate`
+3. install dependencies `pip install -r scripts/requirements.txt`
 
 ## License
 
