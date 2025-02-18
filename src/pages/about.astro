@@ -5,32 +5,122 @@ import Footer from "../components/Footer.astro";
 import '../styles/global.css';
 import { Image } from 'astro:assets';
 import exec2025Pic from "../media/exec2025.jpeg";
+import Tile from '../components/Tile.astro';
+
+// Import the JSON data that was created by generate-data.mjs
+import sheet from '../data/sheet.json';
+
+// Filter/sort/extract the data you need
+const execs = sheet.filter((row) => row.Role === 'Exec');
+const pms = sheet.filter((row) => row.Role === 'PM');
+const activeMembers = sheet.filter((row) => row.Role === 'Active Member');
+
 const pageTitle = "About";
 ---
-<meta charset="UTF-8">
-<head>
-	<title>ES@P</title>
-</head>
-<body>
-	<Header2 />
-	<br />
-	<br />
-	
-	<Statement
-    text="Founded in 2025 at Purdue University, the purpose of ES@P is to provide a collaborative platform for students to explore, develop, and excel in the field of embedded systems. ES@P aims to bridge the gap between academic learning and industry expectations, equipping members with the technical knowledge and hands-on skills necessary to succeed in their careers."
-	/>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <Header2 />
+    <br />
+    <br />
+    
+    <Statement
+      text="Founded in 2025 at Purdue University, the purpose of ES@P is to provide a collaborative platform for students to explore, develop, and excel in the field of embedded systems. ES@P aims to bridge the gap between academic learning and industry expectations, equipping members with the technical knowledge and hands-on skills necessary to succeed in their careers."
+    />
 
-	<br />
+    <br />
 
-	<Image src={exec2025Pic} alt="2025 Exec team" width="840" height="600" />
+    <Image src={exec2025Pic} alt="2025 Exec team" width="840" height="600" />
 
-	<br />
-	<br />
-	<br />
+    <br />
+    <br />
 
-    <h1>Officer Board 2025</h1>
+    <h1>Officers 2025</h1>
+    <div class="tiles">
+      {execs.map((exec) => (
+        <Tile
+          image={exec.Image}
+          name={exec.Name}
+          role={exec.DisplayCategory}
+          majorYear={exec.MajorYear}
+          linkedin={exec.LinkedIn}
+        />
+      ))}
+    </div>
+
     <h1>Project Managers</h1>
+    <div class="tiles">
+      {pms.map((pm) => (
+        <Tile
+          image={pm.Image}
+          name={pm.Name}
+          role={pm.DisplayCategory}
+          majorYear={pm.MajorYear}
+          linkedin={pm.LinkedIn}
+        />
+      ))}
+    </div>
+
     <h1>Active Members</h1>
+    <div class="tiles">
+      {activeMembers.map((member) => (
+        <Tile
+          image={member.Image}
+          name={member.Name}
+          role={member.DisplayCategory}
+          majorYear={member.MajorYear}
+          linkedin={member.LinkedIn}
+        />
+      ))}
+    </div>
 
     <Footer />
-</body>
+  </body>
+</html>
+
+<style>
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center all tiles */
+  gap: 1rem; /* Space between tiles */
+  max-width: 900px; /* Adjust as needed */
+  margin: 0 auto; /* Centers the whole group */
+}
+
+.tile {
+  flex: 1 1 calc(33.333% - 1rem); /* Max 3 per row */
+  max-width: calc(33.333% - 1rem);
+  text-align: center;
+}
+
+/* Force the last item onto its own row when there's a remainder of 1 */
+.tiles .tile:nth-child(3n+4) {
+  flex: 1 1 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .tile {
+    flex: 1 1 calc(50% - 1rem); /* 2 per row */
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 500px) {
+  .tile {
+    flex: 1 1 100%; /* Stack everything */
+    max-width: 100%;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+</style>

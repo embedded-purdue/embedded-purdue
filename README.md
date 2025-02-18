@@ -4,6 +4,21 @@ This repository contains the code for the Embedded Purdue website, custom built 
 
 ## Maintenance
 This webiste reflects the current state of ES@P, so should reflect all recent work. Update with new photos, projects, and members regularly. Maintenance is assigned to the president, although any member may contribute. Basic knowledge of HTML/CSS/JS and Astro recommended.
+# Data Management Instructions
+
+## Steps
+1. Update Data in Excel File
+   - Open the `data.xlsx` file located in the `data` folder.
+   - Update the following fields manually: Name, Role, Image, MajorYear, LinkedIn
+
+2. Upload Images
+   - Upload the updated images to the `public/media` folder.
+
+3. Generate JSON Data
+   - Run the following command to load the data into JSON format:
+     npm run generate-data
+
+This will unpack the data and make it ready for use.
 
 ## Contributions
 
@@ -16,11 +31,16 @@ Contributions are welcome! Check the Issues tab for pending tasks. Follow these 
 5. Submit a pull request to the main repository.
 
 ## Installation
-
+Host site locally:
 1. Clone the repository
 2. Install dependencies using npm: `npm install`
 3. Start the development server: `npm run dev`
 4. Open the local development environment: The website should be available at http://localhost:4321/ (or as indicated in the terminal output).
+
+Run scripts:
+1. Create virtual environment `python3 -m venv venv`
+2. Activate `source venv/bin/activate`
+3. install dependencies `pip install -r scripts/requirements.txt`
 
 ## License
 

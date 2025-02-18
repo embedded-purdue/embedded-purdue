@@ -3,12 +3,15 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "generate-data": "python scripts/generate_data.py",
+    "upload-excel": "python scripts/upload_excel.py",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.3.0"
+    "astro": "^5.3.0",
+    "xlsx": "^0.18.5"
   }
 }
