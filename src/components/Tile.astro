@@ -8,7 +8,7 @@ export interface Props {
 }
 
 const { image, name, role, majorYear, linkedin } = Astro.props;
-const imagePath = `public/media/${image}`; // Adjusted path
+const imagePath = `/media/${image}`; // Adjusted path
 console.log(imagePath);
 ---
 <div class="tile">
