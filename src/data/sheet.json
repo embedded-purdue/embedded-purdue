@@ -1,50 +1,58 @@
 [
   {
-    "Name": "Alice Johnson",
+    "Name": "Alex Aylward",
     "Role": "Exec",
     "DisplayCategory": "President",
-    "Image": "frank.jpg",
-    "MajorYear": "CS Senior",
-    "LinkedIn": "https://linkedin.com/in/alicejohnson"
+    "Image": "alex.jpg",
+    "MajorYear": "CompE Senior",
+    "LinkedIn": "https://www.linkedin.com/in/alexayl/"
   },
   {
-    "Name": "Bob Smith",
+    "Name": "Trevor Antle",
     "Role": "Exec",
     "DisplayCategory": "Vice President",
-    "Image": "frank.jpg",
+    "Image": "trevor.jpg",
+    "MajorYear": "CompE Senior",
+    "LinkedIn": "https://www.linkedin.com/in/trevor-antle/"
+  },
+  {
+    "Name": "Aakash Bathini",
+    "Role": "Exec",
+    "DisplayCategory": "Treasurer",
+    "Image": "aakash.jpg",
+    "MajorYear": "CompE Junior",
+    "LinkedIn": "https://www.linkedin.com/in/aakashbathini/"
+  },
+  {
+    "Name": "Tom Concannon",
+    "Role": "Exec",
+    "DisplayCategory": "Software Engineering Director",
+    "Image": "tom.jpg",
+    "MajorYear": "CompE Junior",
+    "LinkedIn": "https://www.linkedin.com/in/thomascon/"
+  },
+  {
+    "Name": "Connor Powell",
+    "Role": "Exec",
+    "DisplayCategory": "Hardware Engineering Director",
+    "Image": "connor.jpg",
     "MajorYear": "EE Junior",
-    "LinkedIn": "https://linkedin.com/in/bobsmith"
+    "LinkedIn": "https://www.linkedin.com/in/connorzanepowell/"
   },
   {
-    "Name": "Carol White",
+    "Name": "Neal Singh",
     "Role": "Exec",
-    "DisplayCategory": "MAP",
-    "Image": "frank.jpg",
-    "MajorYear": "ME Sophomore",
-    "LinkedIn": "https://linkedin.com/in/carolwhite"
+    "DisplayCategory": "Professional Development Director",
+    "Image": "neal.jpg",
+    "MajorYear": "CompE Junior",
+    "LinkedIn": "https://www.linkedin.com/in/neal-ssingh/"
   },
   {
-    "Name": "Dave Brown",
+    "Name": "Jain Iftesam",
     "Role": "Exec",
-    "DisplayCategory": "GestARM",
-    "Image": "frank.jpg",
-    "MajorYear": "CE Freshman",
-    "LinkedIn": "https://linkedin.com/in/davebrown"
-  },
-  {
-    "Name": "Eve Black",
-    "Role": "Exec",
-    "DisplayCategory": "GestARM",
-    "Image": "frank.jpg",
-    "MajorYear": "CS Senior",
-    "LinkedIn": "https://linkedin.com/in/eveblack"
-  },
-  {
-    "Name": "Frank Green",
-    "Role": "Exec",
-    "DisplayCategory": "PurduDraw",
-    "Image": "frank.jpg",
-    "MajorYear": "EE Junior",
-    "LinkedIn": "https://linkedin.com/in/frankgreen"
+    "DisplayCategory": "Public Relations Director",
+    "Image": "jain.jpg",
+    "MajorYear": "CompE Senior",
+    "LinkedIn": "https://www.linkedin.com/in/jain-iftesam/"
   }
 ]
