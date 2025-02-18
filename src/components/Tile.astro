@@ -8,7 +8,7 @@ export interface Props {
 }
 
 const { image, name, role, majorYear, linkedin } = Astro.props;
-const imagePath = `../../media/${image}`;
+const imagePath = `public/media/${image}`; // Adjusted path
 console.log(imagePath);
 ---
 <div class="tile">
@@ -22,7 +22,6 @@ console.log(imagePath);
 .tile {
   padding: 15px;
   text-align: center;
-  /* max-width: 80%; */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -38,9 +37,8 @@ console.log(imagePath);
 
 .name {
   font-size: 2rem;
-  /* font-weight: ; */
   margin: 0 0;
-text-align: center;
+  text-align: center;
 }
 
 .role, .major-year {
@@ -49,7 +47,6 @@ text-align: center;
 }
 
 .linkedin-link {
-
   font-size: 1.5rem;
 }
 
