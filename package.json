@@ -5,6 +5,7 @@
   "scripts": {
     "generate-data": "python scripts/generate_data.py",
     "upload-excel": "python scripts/upload_excel.py",
+    "heic-to-jpg": "python scripts/heic_to_jpg.py",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
