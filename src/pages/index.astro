@@ -4,7 +4,8 @@ import Statement from "../components/Statement.astro";
 import Footer from "../components/Footer.astro";
 import ImageAndText from "../layouts/ImageAndText.astro";
 import '../styles/global.css'
-import exec2025Pic from "../media/exec2025.jpeg";
+import exec2025Pic from "../media/upload/exec2025.jpeg";
+import calloutPic from "../media/upload/IMG_3490.jpg";
 const pageTitle = "Home Page";
 ---
 <meta charset="UTF-8">
@@ -31,14 +32,14 @@ const pageTitle = "Home Page";
 		text="Our projects are sure to wow! Work on technical projects as an Active Member or Project Manager of your own team."
 		linkText="See available positions."
 		link="https://embedded-purdue.notion.site/project"  // Replace with the desired external URL
-		imageSrc={exec2025Pic}
+		imageSrc={calloutPic}
 		align="left"
 />
 
 	<ImageAndText
 		text="Workshops and courses give you the edge you need. Bridge the gaps in your knowledge with the industry's most sought-after skills"
 		linkText="See upcoming workshops."
-		link="/workshops"
+		link="https://embedded-purdue.notion.site/schedule"
 		imageSrc={exec2025Pic}
 		align="right"
 	/>
