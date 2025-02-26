@@ -1,58 +1,74 @@
 [
   {
-    "Name": "Alex Aylward",
+    "Name": "Alexander Aylward",
     "Role": "Exec",
     "DisplayCategory": "President",
-    "Image": "alex.jpg",
-    "MajorYear": "CompE Senior",
+    "Image": "alexander_aylward.jpg",
+    "MajorYear": "CompE 2026",
     "LinkedIn": "https://www.linkedin.com/in/alexayl/"
   },
   {
     "Name": "Trevor Antle",
     "Role": "Exec",
     "DisplayCategory": "Vice President",
-    "Image": "trevor.jpg",
-    "MajorYear": "CompE Senior",
+    "Image": "trevor_antle.jpg",
+    "MajorYear": "CompE 2025",
     "LinkedIn": "https://www.linkedin.com/in/trevor-antle/"
-  },
-  {
-    "Name": "Aakash Bathini",
-    "Role": "Exec",
-    "DisplayCategory": "Treasurer",
-    "Image": "aakash.jpg",
-    "MajorYear": "CompE Junior",
-    "LinkedIn": "https://www.linkedin.com/in/aakashbathini/"
-  },
-  {
-    "Name": "Tom Concannon",
-    "Role": "Exec",
-    "DisplayCategory": "Software Engineering Director",
-    "Image": "tom.jpg",
-    "MajorYear": "CompE Junior",
-    "LinkedIn": "https://www.linkedin.com/in/thomascon/"
   },
   {
     "Name": "Connor Powell",
     "Role": "Exec",
-    "DisplayCategory": "Hardware Engineering Director",
-    "Image": "connor.jpg",
-    "MajorYear": "EE Junior",
+    "DisplayCategory": "Hardware Director",
+    "Image": "connor_powell.jpg",
+    "MajorYear": "EE 2026",
     "LinkedIn": "https://www.linkedin.com/in/connorzanepowell/"
   },
   {
     "Name": "Neal Singh",
     "Role": "Exec",
-    "DisplayCategory": "Professional Development Director",
-    "Image": "neal.jpg",
-    "MajorYear": "CompE Junior",
-    "LinkedIn": "https://www.linkedin.com/in/neal-ssingh/"
+    "DisplayCategory": "Professional Development Chair",
+    "Image": "neal_singh.jpg",
+    "MajorYear": "CompE 2026",
+    "LinkedIn": "www.linkedin.com/in/neal-ssingh"
   },
   {
     "Name": "Jain Iftesam",
     "Role": "Exec",
-    "DisplayCategory": "Public Relations Director",
-    "Image": "jain.jpg",
-    "MajorYear": "CompE Senior",
-    "LinkedIn": "https://www.linkedin.com/in/jain-iftesam/"
+    "DisplayCategory": "PR Director",
+    "Image": "jain_iftesam.jpg",
+    "MajorYear": "CompE 2025",
+    "LinkedIn": "https://www.linkedin.com/in/jain-iftesam-b623101ba/"
+  },
+  {
+    "Name": "Jackson Dees",
+    "Role": "Active Member",
+    "DisplayCategory": "GestARM",
+    "Image": "jackson_dees.jpg",
+    "MajorYear": "CompE 2026",
+    "LinkedIn": "https://www.linkedin.com/in/jackson-dees/"
+  },
+  {
+    "Name": "Aakash Bathini",
+    "Role": "Exec",
+    "DisplayCategory": "Treasurer",
+    "Image": "aakash_bathini.jpg",
+    "MajorYear": "CompE 2026",
+    "LinkedIn": "https://www.linkedin.com/in/aakashbathini/"
+  },
+  {
+    "Name": "Thomas Concannon",
+    "Role": "Exec",
+    "DisplayCategory": "Software Director",
+    "Image": "thomas_concannon.jpg",
+    "MajorYear": "CompE 2026",
+    "LinkedIn": "https://www.linkedin.com/in/thomascon/"
+  },
+  {
+    "Name": "Aditya Sarkar",
+    "Role": "Active Member",
+    "DisplayCategory": "Mechanical Art Display",
+    "Image": "aditya_sarkar.jpg",
+    "MajorYear": "CompE 2026",
+    "LinkedIn": "https://www.linkedin.com/in/aditya-sarkar-/"
   }
 ]
