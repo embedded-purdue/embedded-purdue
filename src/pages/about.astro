@@ -38,44 +38,56 @@ const pageTitle = "About";
     <br />
     <br />
 
-    <h1>Officers 2025</h1>
-    <div class="tiles">
-      {execs.map((exec) => (
-        <Tile
-          image={exec.Image}
-          name={exec.Name}
-          role={exec.DisplayCategory}
-          majorYear={exec.MajorYear}
-          linkedin={exec.LinkedIn}
-        />
-      ))}
-    </div>
+    {execs.length > 0 && (
+      <>
+        <h1>Officers 2025</h1>
+        <div class="tiles">
+          {execs.map((exec) => (
+            <Tile
+              image={exec.Image}
+              name={exec.Name}
+              role={exec.DisplayCategory}
+              majorYear={exec.MajorYear}
+              linkedin={exec.LinkedIn}
+            />
+          ))}
+        </div>
+      </>
+    )}
 
-    <h1>Project Managers</h1>
-    <div class="tiles">
-      {pms.map((pm) => (
-        <Tile
-          image={pm.Image}
-          name={pm.Name}
-          role={pm.DisplayCategory}
-          majorYear={pm.MajorYear}
-          linkedin={pm.LinkedIn}
-        />
-      ))}
-    </div>
+    {pms.length > 0 && (
+      <>
+        <h1>Project Managers</h1>
+        <div class="tiles">
+          {pms.map((pm) => (
+            <Tile
+              image={pm.Image}
+              name={pm.Name}
+              role={pm.DisplayCategory}
+              majorYear={pm.MajorYear}
+              linkedin={pm.LinkedIn}
+            />
+          ))}
+        </div>
+      </>
+    )}
 
-    <h1>Active Members</h1>
-    <div class="tiles">
-      {activeMembers.map((member) => (
-        <Tile
-          image={member.Image}
-          name={member.Name}
-          role={member.DisplayCategory}
-          majorYear={member.MajorYear}
-          linkedin={member.LinkedIn}
-        />
-      ))}
-    </div>
+    {activeMembers.length > 0 && (
+      <>
+        <h1>Active Members</h1>
+        <div class="tiles">
+          {activeMembers.map((member) => (
+            <Tile
+              image={member.Image}
+              name={member.Name}
+              role={member.DisplayCategory}
+              majorYear={member.MajorYear}
+              linkedin={member.LinkedIn}
+            />
+          ))}
+        </div>
+      </>
+    )}
 
     <Footer />
   </body>
