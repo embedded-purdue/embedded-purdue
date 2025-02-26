@@ -4,7 +4,7 @@ from PIL import Image
 
 # Define the input and output paths
 input_folder = "src/media/input"
-output_folder = "src/media/upload"
+output_folder = "src/media/"
 
 # Ensure the output folder exists
 os.makedirs(output_folder, exist_ok=True)
